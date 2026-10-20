@@ -1,0 +1,14 @@
+# Núcleo
+torch>=2.1
+torchvision>=0.16
+ultralytics>=8.3        # YOLO
+torchmetrics>=1.3        # mAP para SSD e Faster R-CNN
+pycocotools              # backend obrigatório do MeanAveragePrecision do torchmetrics
+Pillow
+PyYAML
+numpy
+
+# Fase 3+ (persistência de resultados / interface) -- não necessário na Fase 1
+# mlflow
+# streamlit
+# opencv-python

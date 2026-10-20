@@ -1,0 +1,25 @@
+# Ambiente virtual (ver TESTANDO_OS_WRAPPERS.md para recriar)
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Pesos de modelos baixados/treinados (grandes, reproduzíveis via wrappers)
+*.pt
+*.pth
+weights/
+
+# Saídas do Ultralytics e dos treinos/avaliações
+runs/
+results/
+
+# Datasets (incluindo o sintético gerado por scripts/make_dummy_dataset.py)
+datasets/
+
+# Cache de dataset do Ultralytics
+*.cache
+
+# Sistema / IDE
+.DS_Store
+*.swp
